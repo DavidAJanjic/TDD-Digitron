@@ -47,6 +47,7 @@ public class Parser {
         }
         Arrays.setNumbers(numbers);
         Arrays.setOperations(operations);
+        x.close();
     }
 
     private static boolean isNumeric(String s) {
