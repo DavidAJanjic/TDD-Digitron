@@ -2,6 +2,7 @@ package com.company;
 
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Calculator {
     Input input;
@@ -27,9 +28,9 @@ public class Calculator {
     }
 
     public static double calculate() {
-        double result = 0;
-        ArrayList<Operations> o = Arrays.getOperations();
-        ArrayList<Double> b = Arrays.getNumbers();
+        double result;
+        List<Operations> o = Arrays.getOperations();
+        List<Double> b = Arrays.getNumbers();
         int i = 0;
         int n = 0;
         for (int f = 0; f < o.size(); f++) {
